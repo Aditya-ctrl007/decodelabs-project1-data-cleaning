@@ -1,0 +1,4 @@
+Change ID,Description,Impact,Status
+CR001,"Imputed missing 'CouponCode' values with category 'No Coupon' (blank = customer did not use a coupon, not missing data)",Preserved 309 records that would otherwise have been deleted,Resolved
+CR002,Removed exact duplicate rows and duplicate OrderID records,Removed 0 exact duplicate row(s) and 0 duplicate OrderID record(s),Resolved
+CR003,"Standardized text casing/whitespace, uppercased ID fields, converted dates to ISO 8601 (YYYY-MM-DD), rounded currency fields to 2 decimal places","Ensured a single consistent format across all 1,200 records",Resolved
